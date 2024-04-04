@@ -1,6 +1,6 @@
 # NgPokemonApp
 ## commande
-- [X] `ng new ng-pokemon-app --ssr=false --style=css --no-standalone`
+- [X] Creation de l'application avec Angular 18 : `ng new ng-pokemon-app --ssr=false --style=css --no-standalone`
 
 # Ressources
 [Tutorial](https://youtu.be/DTIYVffhJuU?si=-WpyvAcmFAx3_RMe)
