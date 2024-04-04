@@ -1,4 +1,10 @@
 # NgPokemonApp
+## commande
+- [X] `ng new ng-pokemon-app --ssr=false --style=css --no-standalone`
+
+# Ressources
+[Tutorial](https://youtu.be/DTIYVffhJuU?si=-WpyvAcmFAx3_RMe)
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.3.
 
