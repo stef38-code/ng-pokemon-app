@@ -1,5 +1,7 @@
 <h1>Liste de Pokémons !</h1>
-<input type="number" (click)="selectPokemon($event)">
+<input #input (keyup)="selectPokemon(input.value)" type="number" >
+<!-- l'ajout du ? indique si pokemonSelectionne = undefine alors ne rien faire -->
+<p>Pokémon sélectionné: {{ pokemonSelected?.name }}</p>
 <p>{{ pokemonList[0].name }}</p>
 <p>{{ pokemonList[1].name }}</p>
 <p>{{ pokemonList[2].name }}</p>
