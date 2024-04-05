@@ -4,7 +4,7 @@
 - [X] Declaration: methode et tableau: reprise à https://youtu.be/DTIYVffhJuU?si=xCiZhdD6ovSBhrR4&t=4599
 # Ressources
 [Tutorial](https://youtu.be/DTIYVffhJuU?si=-WpyvAcmFAx3_RMe)
-
+[Bout de code](https://gist.github.com/codeursenior/2f52b496bf8be2f5e70a31ab69229174)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.3.
 
