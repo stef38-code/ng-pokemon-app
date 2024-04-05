@@ -2,6 +2,10 @@
 ## commande
 - [X] Creation de l'application avec Angular 18 : `ng new ng-pokemon-app --ssr=false --style=css --no-standalone`
 - [X] Declaration: methode et tableau: reprise à https://youtu.be/DTIYVffhJuU?si=xCiZhdD6ovSBhrR4&t=4599
+- [X] Gestion event depuis le DOM
+- [X] Ajout d'un input number avec une décoration
+- [X] selection du pokemon depuis son id via fin
+- reprise à https://youtu.be/DTIYVffhJuU?si=alTosah7DhWJpdAv&t=7568
 # Ressources
 [Tutorial](https://youtu.be/DTIYVffhJuU?si=-WpyvAcmFAx3_RMe)
 [Bout de code](https://gist.github.com/codeursenior/2f52b496bf8be2f5e70a31ab69229174)
