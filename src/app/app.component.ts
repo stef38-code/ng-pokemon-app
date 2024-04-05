@@ -15,6 +15,7 @@ export class AppComponent implements OnInit{
   }
   selectPokemon(event: MouseEvent){
     // le plus devant la paranthèse convert string en number
+    // si String = null alors le cast convertit en 0
     const index: number = +(event.target as HTMLInputElement).value;
     console.log(`Vous avez cliqué sur le pokemon ${this.pokemonList[index].name}`);
   }
