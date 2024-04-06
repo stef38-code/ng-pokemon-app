@@ -6,6 +6,10 @@
 - [X] Ajout d'un input number avec une décoration
 - [X] selection du pokemon depuis son id via fin
 - reprise à https://youtu.be/DTIYVffhJuU?si=alTosah7DhWJpdAv&t=7568
+- [X] ajout css dans index.html `<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">`
+- [X] mise en forme de la page sous forme de carte
+- [X] Creation d'un directive `ng generate directive border-card`
+- reprise : https://youtu.be/DTIYVffhJuU?si=UG3nqp8i_5-dkgCf&t=9406
 # Ressources
 [Tutorial](https://youtu.be/DTIYVffhJuU?si=-WpyvAcmFAx3_RMe)
 [Bout de code](https://gist.github.com/codeursenior/2f52b496bf8be2f5e70a31ab69229174)
