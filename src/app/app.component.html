@@ -1,5 +1,5 @@
 <h1>Liste de Pokémons !</h1>
-<input #input (keyup)="selectPokemon(input.value)" type="number" >
+<input #input (keyup.enter)="selectPokemon(input.value)" type="number" >
 <!-- l'ajout du ? indique si pokemonSelectionne = undefine alors ne rien faire -->
 <p>Pokémon sélectionné: {{ pokemonSelected?.name }}</p>
 <p>{{ pokemonList[0].name }}</p>
