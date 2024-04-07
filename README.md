@@ -19,7 +19,8 @@
 - [X] Création des composants
   - `ng generate component list-pokemon --inline-template=false`
   - `ng generate component detail-pokemon --inline-template=false`
-- 
+- [X] `<router-outlet></router-outlet>` dans app.component.html
+- [X] page detail et recupération de l'id du pokémon
 # Ressources
 [Tutorial](https://youtu.be/DTIYVffhJuU?si=-WpyvAcmFAx3_RMe)
 [Bout de code](https://gist.github.com/codeursenior/2f52b496bf8be2f5e70a31ab69229174)

@@ -7,16 +7,6 @@ import {Pokemon} from "./pokemon";
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
-export class AppComponent implements OnInit{
-  pokemonList: Pokemon[] = POKEMONS;
-  pokemonSelected: Pokemon|undefined;
-  ngOnInit(): void {
-    console.table(this.pokemonList);
-  }
-  selectPokemon(pokemon: Pokemon){
-    // le plus devant la paranthèse convert string en number
-    // si String = null alors le cast convertit en 0
-    this.pokemonSelected = pokemon;
-  }
+export class AppComponent {
 
 }
