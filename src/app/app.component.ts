@@ -13,9 +13,9 @@ export class AppComponent implements OnInit{
   ngOnInit(): void {
     console.table(this.pokemonList);
   }
-  selectPokemon(pokemonId: string){
+  selectPokemon(pokemon: Pokemon){
     // le plus devant la paranthèse convert string en number
     // si String = null alors le cast convertit en 0
-    this.pokemonSelected = this.pokemonList.find(pokemon => pokemon.id == +pokemonId);
+    this.pokemonSelected = pokemon;
   }
 }

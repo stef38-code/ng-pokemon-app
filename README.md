@@ -10,6 +10,7 @@
 - [X] mise en forme de la page sous forme de carte
 - [X] Creation d'un directive `ng generate directive border-card`
 - reprise : https://youtu.be/DTIYVffhJuU?si=UG3nqp8i_5-dkgCf&t=9406
+- [X] Ajout, taille et couleur de la carte au passage de la souris
 # Ressources
 [Tutorial](https://youtu.be/DTIYVffhJuU?si=-WpyvAcmFAx3_RMe)
 [Bout de code](https://gist.github.com/codeursenior/2f52b496bf8be2f5e70a31ab69229174)
