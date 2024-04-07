@@ -22,6 +22,8 @@
 - [X] `<router-outlet></router-outlet>` dans app.component.html
 - [X] page detail et recupération de l'id du pokémon
 - https://youtu.be/DTIYVffhJuU?si=3oAX4Q6HrwCvp1SM&t=12988
+- [X] creation de la page not found ` ng generate component page-not-found`
+- 
 
 
 # Ressources

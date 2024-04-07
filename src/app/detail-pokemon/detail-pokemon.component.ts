@@ -1,5 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-import {ActivatedRoute} from "@angular/router";
+import {ActivatedRoute, Router} from "@angular/router";
 import {Pokemon} from "../pokemon";
 import {POKEMONS} from "../mock-pokemons";
 
@@ -11,7 +11,7 @@ import {POKEMONS} from "../mock-pokemons";
 export class DetailPokemonComponent implements OnInit{
   pokeminList : Pokemon[];
   pokemon: Pokemon | undefined;
-  constructor(private activatedRoute: ActivatedRoute) {
+  constructor(private activatedRoute: ActivatedRoute,private router: Router) {
     this.pokeminList= POKEMONS;
   }
 
@@ -22,7 +22,7 @@ export class DetailPokemonComponent implements OnInit{
     }
   }
 
-  goBack(): void {
-
+  goToPokemonList() {
+    this.router.navigate(['/pokemons']);
   }
 }

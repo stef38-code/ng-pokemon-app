@@ -1,6 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 import {Pokemon} from "../pokemon";
 import {POKEMONS} from "../mock-pokemons";
+import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-list-pokemon',
@@ -10,13 +11,16 @@ import {POKEMONS} from "../mock-pokemons";
 export class ListPokemonComponent implements OnInit{
   pokemonList: Pokemon[] = POKEMONS;
   pokemonSelected: Pokemon|undefined;
+
+
+  constructor(private router: Router) {
+  }
+
   ngOnInit(): void {
     console.table(this.pokemonList);
   }
-  selectPokemon(pokemon: Pokemon){
-    // le plus devant la paranthèse convert string en number
-    // si String = null alors le cast convertit en 0
-    this.pokemonSelected = pokemon;
-  }
 
+  goToPokemon(pokemon: Pokemon): void{
+    this.router.navigate(['/pokemon',pokemon.id]);
+  }
 }
