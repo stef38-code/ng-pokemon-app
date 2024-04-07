@@ -26,7 +26,16 @@
 - [X] Modules...
 - [X] Creation `ng generate module pokemon`
 - [X] reorganisation du code et des routes
+- [X]Services...
+- [X] creation mais mode simulation `ng generate service pokemon/services/pokemon --dry-run`
+```
+  ng generate service pokemon/services/pokemon --dry-run
+  CREATE src/app/pokemon/services/pokemon.service.spec.ts (362 bytes)
+  CREATE src/app/pokemon/services/pokemon.service.ts (136 bytes)
 
+NOTE: The "--dry-run" option means no changes were made.
+```
+- [X] creation des méthodes dans le service
 # Ressources
 [Tutorial](https://youtu.be/DTIYVffhJuU?si=-WpyvAcmFAx3_RMe)
 [Bout de code](https://gist.github.com/codeursenior/2f52b496bf8be2f5e70a31ab69229174)
