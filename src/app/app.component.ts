@@ -18,4 +18,5 @@ export class AppComponent implements OnInit{
     // si String = null alors le cast convertit en 0
     this.pokemonSelected = pokemon;
   }
+
 }
