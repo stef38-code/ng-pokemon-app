@@ -15,6 +15,11 @@
 - [X] utilisation d'un pipe date
 - [X] creation d'un pipe `ng generate pipe pokemon-type-color`
 - [X] affichage des types des pokémons  
+- [X] mise en place du routing
+- [X] Création des composants
+  - `ng generate component list-pokemon --inline-template=false`
+  - `ng generate component detail-pokemon --inline-template=false`
+- 
 # Ressources
 [Tutorial](https://youtu.be/DTIYVffhJuU?si=-WpyvAcmFAx3_RMe)
 [Bout de code](https://gist.github.com/codeursenior/2f52b496bf8be2f5e70a31ab69229174)
