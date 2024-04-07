@@ -23,8 +23,9 @@
 - [X] page detail et recupération de l'id du pokémon
 - https://youtu.be/DTIYVffhJuU?si=3oAX4Q6HrwCvp1SM&t=12988
 - [X] creation de la page not found ` ng generate component page-not-found`
-- 
-
+- [X] Modules...
+- [X] Creation `ng generate module pokemon`
+- [X] reorganisation du code et des routes
 
 # Ressources
 [Tutorial](https://youtu.be/DTIYVffhJuU?si=-WpyvAcmFAx3_RMe)

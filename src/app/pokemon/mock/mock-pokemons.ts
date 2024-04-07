@@ -1,5 +1,5 @@
 /* Chapitre 2 : Les Composants */
-import { Pokemon } from './pokemon';
+import { Pokemon } from '../model/pokemon';
 
 export const POKEMONS: Pokemon[] = [
   {
