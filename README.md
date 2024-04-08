@@ -38,7 +38,19 @@ NOTE: The "--dry-run" option means no changes were made.
 - [X] creation des méthodes dans le service
 - [X] utilisation du service 
 - [X] limite la visibilité du service dans l'application, on le veut juste pour pokemon.module
+- [X] formulaire : https://youtu.be/DTIYVffhJuU?si=yxO8Rddc7JNZoWRx&t=16961
+- [X] le forms
+```
+    ng generate component pokemon/pokemon-form --inline-template=false
+CREATE src/app/pokemon/pokemon-form/pokemon-form.component.css (0 bytes)
+CREATE src/app/pokemon/pokemon-form/pokemon-form.component.html (27 bytes)
+CREATE src/app/pokemon/pokemon-form/pokemon-form.component.spec.ts (637 bytes)
+CREATE src/app/pokemon/pokemon-form/pokemon-form.component.ts (222 bytes)
+UPDATE src/app/pokemon/pokemon.module.ts (1210 bytes)
 
+```
+- reprise : https://youtu.be/DTIYVffhJuU?si=8Q_9jwd7wwtbREK_&t=18806
+- 
 # Ressources
 [Tutorial](https://youtu.be/DTIYVffhJuU?si=-WpyvAcmFAx3_RMe)
 [Bout de code](https://gist.github.com/codeursenior/2f52b496bf8be2f5e70a31ab69229174)
