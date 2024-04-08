@@ -36,6 +36,9 @@
 NOTE: The "--dry-run" option means no changes were made.
 ```
 - [X] creation des méthodes dans le service
+- [X] utilisation du service 
+- [X] limite la visibilité du service dans l'application, on le veut juste pour pokemon.module
+
 # Ressources
 [Tutorial](https://youtu.be/DTIYVffhJuU?si=-WpyvAcmFAx3_RMe)
 [Bout de code](https://gist.github.com/codeursenior/2f52b496bf8be2f5e70a31ab69229174)

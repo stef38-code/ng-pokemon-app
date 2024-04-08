@@ -1,7 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 import {Pokemon} from "../model/pokemon";
-import {POKEMONS} from "../mock/mock-pokemons";
 import {Router} from "@angular/router";
+import {PokemonService} from "../services/pokemon.service";
 
 @Component({
   selector: 'app-list-pokemon',
@@ -9,15 +9,16 @@ import {Router} from "@angular/router";
   styleUrl: './list-pokemon.component.css'
 })
 export class ListPokemonComponent implements OnInit{
-  pokemonList: Pokemon[] = POKEMONS;
+  pokemonList: Pokemon[];
   pokemonSelected: Pokemon|undefined;
 
 
-  constructor(private router: Router) {
+  constructor(private router: Router,
+              private pokemonService: PokemonService) {
   }
 
   ngOnInit(): void {
-    console.table(this.pokemonList);
+    this.pokemonList = this.pokemonService.getPokemonList();
   }
 
   goToPokemon(pokemon: Pokemon): void{
