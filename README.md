@@ -63,7 +63,8 @@ NOTE: The "--dry-run" option means no changes were made.
 ```
 - [X] mise en place du composant form dans edit
 - [X] modification de la route
-- reprise : https://youtu.be/DTIYVffhJuU?si=aiRYqo0RdIkq3BUu&t=22248
+- [] httpClient
+- reprise : https://youtu.be/DTIYVffhJuU?si=BrhPV9g3cUEXqeyU&t=22308
 # Ressources
 ## de l'application
 - [Tutorial](https://youtu.be/DTIYVffhJuU?si=-WpyvAcmFAx3_RMe)
