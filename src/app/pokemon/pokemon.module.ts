@@ -16,6 +16,9 @@ const pokemonRoutes: Routes = [
   },
   {
     path : 'pokemon/:id', component: DetailPokemonComponent
+  },
+  {
+    path : 'pokemon/edit/:id', component: EditPokemonComponent
   }
 
 ];

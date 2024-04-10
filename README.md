@@ -50,7 +50,7 @@ UPDATE src/app/pokemon/pokemon.module.ts (1210 bytes)
 
 ```
 - reprise : https://youtu.be/DTIYVffhJuU?si=8Q_9jwd7wwtbREK_&t=18806
-- [X] creation du compsant edit
+- [X] creation du composant edit
 ```
 ng generate component pokemon/edit-pokemon --dry-run         
 CREATE src/app/pokemon/edit-pokemon/edit-pokemon.component.css (0 bytes)
@@ -61,6 +61,8 @@ UPDATE src/app/pokemon/pokemon.module.ts (1314 bytes)
 
 NOTE: The "--dry-run" option means no changes were made.
 ```
+- [X] mise en place du composant form dans edit
+- [X] modification de la route
 
 # Ressources
 [Tutorial](https://youtu.be/DTIYVffhJuU?si=-WpyvAcmFAx3_RMe)
