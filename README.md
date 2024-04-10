@@ -65,6 +65,16 @@ NOTE: The "--dry-run" option means no changes were made.
 - [X] modification de la route
 - [] httpClient
 - reprise : https://youtu.be/DTIYVffhJuU?si=BrhPV9g3cUEXqeyU&t=22308
+- [X] installation web-api pour simuler des web-api
+```shell
+ npm install angular-in-memory-web-api --save-dev
+```
+- [X] creation du service
+```shell
+ng generate service in-memory-data
+```
+-[X] configuration du web-api
+- reprise :https://youtu.be/DTIYVffhJuU?si=eAT4G5mwYGhBLEbh&t=22912
 # Ressources
 ## de l'application
 - [Tutorial](https://youtu.be/DTIYVffhJuU?si=-WpyvAcmFAx3_RMe)
