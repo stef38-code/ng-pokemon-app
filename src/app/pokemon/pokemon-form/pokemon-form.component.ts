@@ -28,8 +28,14 @@ export class PokemonFormComponent implements OnInit{
     return this.pokemon.types.includes(type );
   }
 
-  isTypesValid(type: any) {
-    return false;
+  isTypesValid(type: string) {
+    if(this.pokemon.types.length == 1 && this.hasType(type)){
+      return false;
+    }
+    if(this.pokemon.types.length > 2 && !this.hasType(type)){
+      return false;
+    }
+    return true;
   }
 
   selectType($event: Event, type: string): void {
