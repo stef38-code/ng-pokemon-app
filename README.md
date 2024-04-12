@@ -75,6 +75,8 @@ ng generate service in-memory-data
 ```
 -[X] configuration du web-api
 - reprise :https://youtu.be/DTIYVffhJuU?si=eAT4G5mwYGhBLEbh&t=22912
+- [X] modification du service pour faire appel à un service rest
+- reprise: https://youtu.be/DTIYVffhJuU?si=0ItElNTQ6tvZs3Jn&t=24044
 # Ressources
 ## de l'application
 - [Tutorial](https://youtu.be/DTIYVffhJuU?si=-WpyvAcmFAx3_RMe)
